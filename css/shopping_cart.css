@@ -13,7 +13,7 @@
 
 .button_row{
 	display: flex;
-	padding: 20px 18% 20px;
+	padding: 20px 19.1% 20px;
 }
 
 .btn_frame{
@@ -22,23 +22,31 @@
 
 .buttom{
 	text-decoration:none;
-	font-size: 20px;
+	font-size: 10px;
 	color: black;
 	background-color: rgba(180,180,180,1);
-	padding: 9px 30px 9px;
+	padding: 9px 26px 9px;
 	border-radius: 25px;
 }
 
 .main{
-	padding: 0px 18% 5px ;
+	padding: 0px 15% 5px ;
 }
 
 .item_row{
 	display: flex;
 }
 
+.checkbox{
+	margin-top: 47px;
+	width: 35px;
+	height: 35px;
+}
+
 .item_card{
 	display: flex;
+	padding: 0 31.8% 0 0;
+	margin:  0 0 0 20px;
 	box-shadow: 0px 1px 10px 0 rgba(0,0,0,0.4);
 	background-color: #E5E5E5;
 	border-radius: 25px;
@@ -54,4 +62,5 @@
 
 .text_box{
 	padding: 14px 0 12px 0 ;
+	width: 490px;
 }

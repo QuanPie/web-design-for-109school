@@ -10,38 +10,6 @@
 	<meta charset="utf-8">
 </head>
 
-<!-- <script>
-function openNav() {
-  document.querySelector("#RSidenav").style.width = "400px";
-}
-
-function closeNav() {
-  document.querySelector("#RSidenav").style.width = "0";
-}
-
-function favoriteSwitch() {
-	const svg = document.querySelector('svg[data-icon="carbon:favorite-filled"]')
-
-	if (svg.style.color === 'rgba(150, 150, 150, 0.7)') {
-		svg.style.color = 'rgba(255, 57, 49,0.9)'
-	} else {
-		svg.style.color = 'rgba(150,150,150,0.7)'
-	}
-}
-
-function plus() {
-	let count = document.querySelector('.count')
-	count.textContent =  parseInt(count.textContent) + 1
-}
-
-function minus() {
-	let count = document.querySelector('.count')
-	if (parseInt(count.textContent) > 0) {
-		count.textContent =  parseInt(count.textContent) - 1
-	}
-}
-</script> -->
-
 <body>
 	<!-- 左側導覽動畫 -->
 	<div id="RSidenav" class="sidenav">
@@ -51,8 +19,7 @@ function minus() {
   		<a href="#">Clients</a>
   		<a href="#">Contact</a>
 	</div>
-	<!-- Use any element to open the sidenav -->
-	<!-- <span onclick="openNav()">open</span> -->
+
 	
 	<!-- 標頭 -->
 	<div class="menubar">
@@ -71,12 +38,10 @@ function minus() {
 			<!-- 購物車   -->
 		  	<div class="shopping-cart">
 		  		<span class="iconify" data-inline="false" data-icon="clarity:shopping-cart-line" style="font-size: 170%;"></span>
-		  		<!-- <img class="shopping-cartSVG" src="./icon/shopping-cart.svg" alt="shopping-cart icon"/> -->
 			</div>
 			<!-- 搜尋   -->
 	  		<div class="loupe">
 	  			<span class="iconify" data-inline="false" data-icon="carbon:search" style="font-size:95%;"></span>
-		    	<!-- <img class="loupeSVG" src="./icon/loupe.svg" alt="loupe icon"/> -->
 		  	</div>
 
 	    </div>
@@ -96,7 +61,6 @@ function minus() {
 					<div class="count">0</div>
 					<span class="iconify" class="shopping-cart-plus" data-inline="false" data-icon="carbon:shopping-cart-plus" style="font-size: 24px; color: black;"></span>
 					<span onclick="favoriteSwitch()" class="iconify" data-inline="false" data-icon="carbon:favorite-filled" style="font-size: 23px; color: rgba(150,150,150,0.7);padding:0.4% 5%"></span>
-					<!-- <span class="iconify" data-inline="false" data-icon="carbon:favorite-filled" style="font-size: 23px; color: rgba(255, 57, 49,0.9);padding:0.4% 5%"></span> -->
 
 				</div>
 			</div>
