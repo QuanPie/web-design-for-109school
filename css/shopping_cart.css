@@ -64,3 +64,13 @@
 	padding: 14px 0 12px 0 ;
 	width: 490px;
 }
+
+.item_name{
+	font-size:18px ;
+	color: ;
+}
+
+.discribe{
+	font-size: 10px;
+	color:rgba(100,100,100,0.6);
+}
