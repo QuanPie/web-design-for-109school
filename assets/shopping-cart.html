@@ -23,15 +23,19 @@
 			<a href="#" class="buttom">Select All</a>	
 		</div>
 		<div class="btn_frame">
-			<a href="#" class="buttom">BUY</a>
+			<a href="#" class="BUY_buttom">B U Y</a>
 		</div>
 	</div>
 	<!-- 購物車內商品 -->
 	<div class="main">
 		<div class="item_row">
-			<input type="checkbox" name="" class="checkbox">
+			<div>
+				<input type="checkbox" name="" class="checkbox">
+			</div>
+			<!-- 資訊卡 -->
 			<div class="item_card">
 				<img src="./image/banana.jpeg" class="item_img">
+				<!-- 商品描述 -->
 				<div class="text_box">
 					<div class="item_name">
 						Bbbbbig Banana 
@@ -40,6 +44,22 @@
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in plac....
 					</div>
 				</div>
+
+				<!-- 改數量 -->
+				<div class="counter">
+					<a href="#"></a>
+					<span onclick="plus()" class="iconify" data-inline="false" data-icon="akar-icons:plus" style="font-size: 30px"></span>
+					<div class="count">0</div>
+					<span onclick="minus()" class="iconify" data-inline="false" data-icon="akar-icons:minus" style="font-size: 30px"></span>
+				</div>
+
+				<!-- del -->
+				<div class="del">
+					<a href="#">
+						<span class="iconify" data-inline="false" data-icon="bx:bx-x" style="font-size: 35px; color: gray;"></span>
+					</a>
+				</div>
+				<!-- del -->
 			</div>
 		</div>
 	</div>

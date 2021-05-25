@@ -13,7 +13,8 @@
 
 .button_row{
 	display: flex;
-	padding: 20px 19.1% 20px;
+	justify-content:space-between;
+	padding: 20px 17.8% 20px;
 }
 
 .btn_frame{
@@ -29,8 +30,17 @@
 	border-radius: 25px;
 }
 
+.BUY_buttom{
+	text-decoration:none;
+	font-size: 10px;
+	color: black;
+	background-color: rgba(180,180,180,1);
+	padding: 9px 26px 9px;
+	border-radius: 25px;
+}
+
 .main{
-	padding: 0px 15% 5px ;
+	padding: 0px 13% 5px ;
 }
 
 .item_row{
@@ -45,7 +55,7 @@
 
 .item_card{
 	display: flex;
-	padding: 0 31.8% 0 0;
+	padding: 0 10px 0 0;
 	margin:  0 0 0 20px;
 	box-shadow: 0px 1px 10px 0 rgba(0,0,0,0.4);
 	background-color: #E5E5E5;
@@ -56,8 +66,8 @@
 	object-fit: cover;
 	width: 140px;
 	height: 140px;
-	padding:  0px 20px 0px 0;
-	border-radius: 25px;
+	padding:  0px 10px 0px 0px;
+	border-radius: 20px;
 }
 
 .text_box{
@@ -73,4 +83,19 @@
 .discribe{
 	font-size: 10px;
 	color:rgba(100,100,100,0.6);
+}
+
+.counter{
+	font-size: 35px;
+	margin:5.8% 0 0 25px ;
+	display: flex;
+}
+
+.count{
+ padding: 0 15px 0px;
+ margin-top: -10px;
+}
+
+.del{
+	margin: 5px 0 0 48px ;
 }
